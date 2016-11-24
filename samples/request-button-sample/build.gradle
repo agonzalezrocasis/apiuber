@@ -10,7 +10,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.1.2'
     }
 }
 
@@ -23,9 +23,9 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
-        buildConfigField "String", "CLIENT_ID", "\"${loadSecret("UBER_CLIENT_ID")}\"" //Add your client id to gradle.properties
-        buildConfigField "String", "REDIRECT_URI", "\"${loadSecret("UBER_REDIRECT_URI")}\"" //Add your redirect uri to gradle.properties
-        buildConfigField "String", "SERVER_TOKEN", "\"${loadSecret("UBER_SERVER_TOKEN")}\"" //Add your server token to gradle.properties
+        buildConfigField "String", "CLIENT_ID", "\"${loadSecret("bvTYZ1E0a0JvY-Gx5v2TbQ4Ic2GLOdh8")}\"" //Add your client id to gradle.properties
+        buildConfigField "String", "REDIRECT_URI", "\"${loadSecret("127.0.0.1")}\"" //Add your redirect uri to gradle.properties
+        buildConfigField "String", "SERVER_TOKEN", "\"${loadSecret("ROcx8PAufdb3MYkoJ4vp4S52tPOjgEF4aSPNYVbp")}\"" //Add your server token to gradle.properties
     }
 
     buildTypes {

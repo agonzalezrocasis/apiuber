@@ -28,7 +28,7 @@
     android:orientation="vertical"
     tools:context=".SampleActivity">
 
-    <RelativeLayout
+    <RelativeLayout1
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -49,7 +49,7 @@
             android:layout_centerVertical="true"
             uber:ub__style="black" />
 
-    </RelativeLayout>
+    </RelativeLayout1>
 
     <RelativeLayout
         android:layout_width="match_parent"
